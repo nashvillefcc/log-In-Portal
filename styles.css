@@ -1,5 +1,5 @@
 .sign-in-body {
-    background-color: #e6f2ff;
+    background-color: #f4f4f4;
 }
 
 .container.sign-in-container {
@@ -7,18 +7,19 @@
 }
 
 .card.sign-in-card {
-   padding: 40px 0px 20px 10px;
-   background-color: #f4f4f4;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    transition: all .3s linear;
 }
 
 img.sign-in-logo {
-    padding: 0 2rem 2rem;
+    padding: 0 2em 2em;
     margin: auto;
     display: block;
-    width: 70%;
+    max-width: 250px;
+    height: auto;
 }
 
 form.sign-in-form{
@@ -33,4 +34,18 @@ button.sign-in-btn {
 
 .new-account-create {
     text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .sign-in-body {
+        background-color: #e6f2ff;
+    }
+    .card.sign-in-card {
+        border: 1px solid lightgray;
+        padding: 20px 20px;
+        background-color: #f4f4f4;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+        -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+    }
 }
