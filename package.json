@@ -1,0 +1,20 @@
+{
+  "name": "log-in-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "practice.js",
+  "scripts": {
+    "start:static": "open ./index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashvillefcc/log-In-Portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nashvillefcc/log-In-Portal/issues"
+  },
+  "homepage": "https://github.com/nashvillefcc/log-In-Portal#readme"
+}
